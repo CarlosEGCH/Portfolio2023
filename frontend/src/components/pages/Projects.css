@@ -1,0 +1,89 @@
+.projects-wrapper{
+    background-color: #FEBE2F;
+    color: black;
+    padding: 60px 120px;
+}
+
+.projects-wrapper
+.main-title
+.subtitle{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.projects-wrapper
+.main-title
+.title{
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Projects Styles */
+
+.projects-wrapper
+.projects-container{
+    margin: 60px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 40px;
+}
+
+.projects-wrapper
+.projects-container
+img{
+    box-shadow: -8px 8px #0C0032;
+}
+
+.projects-wrapper
+.projects-container
+.advertisement
+.subtitle{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.projects-wrapper 
+.projects-container 
+.advertisement 
+.title{
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.projects-wrapper
+.projects-container
+.advertisement
+.link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.projects-wrapper
+.projects-container
+.advertisement
+img{
+    box-shadow: none;
+}
+
+.projects-wrapper 
+.projects-container 
+.advertisement 
+.link 
+a{
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+.projects-wrapper 
+.projects-container 
+.advertisement 
+.link 
+a:hover{
+    text-decoration: underline;
+}
