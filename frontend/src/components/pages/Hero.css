@@ -1,0 +1,148 @@
+.hero-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 120px;
+    overflow: hidden;
+}
+
+/* Subtitle Styles */
+
+.hero-wrapper
+.left
+.subtitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.hero-wrapper
+.left
+.subtitle
+.hline{
+    width: 200px;
+    height: 2px;
+    background-color: #FEBE2F;
+}
+
+.hero-wrapper
+.detail{
+    color: #FEBE2F;
+}
+
+/* Title Styles */
+
+.hero-wrapper
+.left
+.title{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+/* Description Styles */
+
+.hero-wrapper
+.left
+.description{
+    font-size: 18px;
+    line-height: 30px;
+    width: 650px;
+    margin-top: 20px;
+}
+
+/* Buttons Styles */
+
+.hero-wrapper
+.left
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.hero-wrapper
+.left
+.buttons-container
+.contactme{
+    background-color: #3500D3;
+    box-shadow: 0px 0px #240090;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: box-shadow 0.25s ease-out;
+}
+
+.hero-wrapper 
+.left 
+.buttons-container 
+.contactme:hover {
+    box-shadow: -4px 4px #240090;
+}
+
+.hero-wrapper
+.left
+.buttons-container
+.knowmore{
+    background-color: #282828;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: color 0.25s ease-out;
+}
+
+.hero-wrapper 
+.left 
+.buttons-container 
+.knowmore:hover{
+    color: #FEBE2F;
+}
+
+/* Orbit Effect */
+
+.hero-wrapper
+.right{
+    position: relative;
+}
+
+.hero-wrapper
+.right
+.orbit{
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    border: 3px solid #FEBE2F;
+    border-radius: 100%;
+    justify-self: center;
+    top: 0;
+    animation-name: rotate-animation;
+    animation-duration: 16s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.hero-wrapper
+.right
+.orbit
+.satellite{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #FEBE2F;
+    border-radius: 100%;
+    left: 45%;
+    top: -20px;
+}
+
+@keyframes rotate-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

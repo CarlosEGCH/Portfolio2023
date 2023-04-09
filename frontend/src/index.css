@@ -4,4 +4,6 @@ html, body{
   margin: 0;
   padding: 0;
   background-color: #0C0032;
+  font-family: 'Inter', sans-serif;
+  color: white;
 }
