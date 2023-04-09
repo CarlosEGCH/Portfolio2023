@@ -1,0 +1,110 @@
+.technologies-wrapper{
+    padding: 0px 180px 200px 180px;
+}
+
+.technologies-wrapper
+.main-title{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 100px 0px;
+}
+
+.technologies-wrapper
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+}
+
+/* Cards Styles */
+
+.technologies-wrapper
+.cards-container
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #190061;
+    width: 400px;
+    height: 400px;
+    padding: 30px 30px;
+    transition: 0.25s ease-in-out; 
+}
+
+.technologies-wrapper
+.cards-container
+.card
+.header
+.img-container{
+    background-color: #3500D3;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    transition: 0.25s ease-out;
+}
+
+.technologies-wrapper
+.cards-container
+.card
+.header
+.img-container
+img{
+    height: 40px;
+    width: 40px;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.technologies-wrapper
+.cards-container
+.card
+.body
+.title{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.technologies-wrapper
+.cards-container
+.card
+.body
+.list
+.item{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.technologies-wrapper
+.cards-container
+.card
+.body
+.list
+.item
+.triangle{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    clip-path: polygon(0% 0%, 100% 50%, 100% 50%, 0% 100%);
+}
+
+/* Animations Styles */
+
+.technologies-wrapper
+.cards-container
+.card:hover{
+    background-color: #FEBE2F;
+    padding: 60px 30px;
+    color: #282828;
+}
+
+.technologies-wrapper
+.cards-container
+.card:hover .img-container{
+    background-color: #282828;
+}
