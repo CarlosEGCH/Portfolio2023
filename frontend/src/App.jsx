@@ -6,6 +6,7 @@ import Skills from './components/pages/Skills'
 import Technologies from './components/pages/Technologies'
 import Projects from './components/pages/Projects'
 import Education from './components/pages/Education'
+import Contact from './components/pages/Contact'
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <Technologies />
       <Projects />
       <Education />
+      <Contact />
     </div>
   )
 }

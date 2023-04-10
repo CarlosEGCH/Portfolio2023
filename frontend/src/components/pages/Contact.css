@@ -1,0 +1,129 @@
+.contact-wrapper{
+    background-color: #282828;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px 120px;
+    height: 700px;
+    align-items: center;
+}
+
+.contact-wrapper 
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-wrapper
+.left
+.title{
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.contact-wrapper
+.left
+.subtitle{
+    font-size: 22px;
+    margin: 0;
+}
+
+.contact-wrapper
+.left
+.detail{
+    color: #FEBE2F;
+}
+
+.contact-wrapper
+.left
+.mail-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.contact-wrapper
+.left
+.mail-container
+.img-container{
+    background-color: #3500D3;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.contact-wrapper
+.left
+.mail-container
+.mail-text
+p{
+    margin: 0;
+    font-size: 18px;
+}
+
+/* Form Details */
+
+.contact-wrapper
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-wrapper
+.right
+p{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.contact-wrapper
+.right
+input{
+    width: 600px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #282828;
+    border: 3px solid #3500D3;
+    border-radius: 15px;
+    color: white;
+}
+
+.contact-wrapper 
+.right 
+textarea {
+    width: 600px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #282828;
+    border: 3px solid #3500D3;
+    border-radius: 15px;
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+
+.contact-wrapper
+.right
+button{
+    width: 180px;
+    padding: 15px 20px;
+    font-size: 20px;
+    background-color: #3500D3;
+    border: none;
+    outline: none;
+    color: white;
+    box-shadow: 0px 0px #240090;
+    transition: 0.25s ease-in-out;
+}
+
+/* Hover effects */
+
+.contact-wrapper
+.right
+button:hover{
+    box-shadow: -8px 8px #240090;
+    color: #FEBE2F
+}
