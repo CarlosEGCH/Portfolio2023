@@ -16,11 +16,46 @@ export default function Projects() {
             <p className='title'>Featured Projects</p>
         </div>
         <div className='projects-container'>
-            <img src={proj1} alt="test" />
-            <img src={proj2} alt="test" />
-            <img src={proj3} alt="test" />
-            <img src={proj4} alt="test" />
-            <img src={proj5} alt="test" />
+            <div className='img-container'>
+                <img src={proj1} alt="test" />
+                <div className='img-overlay'>
+                    <a href="https://github.com/CarlosEGCH/weUMa">
+                        Visit Project
+                    </a>
+                </div>
+            </div>
+            <div className='img-container'>
+                <img src={proj2} alt="test" />
+                <div className='img-overlay'>
+                    <a href="https://mirnaamaya.com/">
+                        Visit Project
+                    </a>
+                </div>
+            </div>
+            <div className='img-container'>
+                <img src={proj3} alt="test" />
+                <div className='img-overlay'>
+                    <a href="https://madeiradentalcenter.pt/">
+                        Visit Project
+                    </a>
+                </div>
+            </div>
+            <div className='img-container'>
+                <img src={proj4} alt="test" />
+                <div className='img-overlay'>
+                    <a href="https://github.com/CarlosEGCH/ScamOverflow">
+                        Visit Project
+                    </a>
+                </div>
+            </div>
+            <div className='img-container'>
+                <img src={proj5} alt="test" />
+                <div className='img-overlay'>
+                    <a href="https://airobotblog.web.app/">
+                        Visit Project
+                    </a>
+                </div>
+            </div>
             <div className='advertisement'>
                 <p className='subtitle'>More on my Github...</p>
                 <p className='title'>Visit my profile</p>
