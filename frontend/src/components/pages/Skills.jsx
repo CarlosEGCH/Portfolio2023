@@ -82,7 +82,7 @@ export default function Skills() {
         }
 
   return (
-    <div className="skills-wrapper" ref={ref} id="skills">
+    <div className="skills-wrapper" id="skills">
         <div className="left">
             <p className="title">Skills and <br/> Experience</p>
             <p className="subtitle">Junior Front-End Web Developer <span className="detail">|</span> Software Engineer <span className="detail">|</span> <br/>
@@ -137,7 +137,7 @@ HTML<span className="detail">/</span>CSS<span className="detail">/</span>Javascr
             </div>
         </div>
 
-        <div className="right">
+        <div className="right" ref={ref}>
             <div className="list-container">
                 <div className="list-item">
                     <p>Front<span className='detail'>-</span>End</p>

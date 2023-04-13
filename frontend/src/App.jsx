@@ -14,7 +14,7 @@ export default function App() {
     <div>
       <Header />
       <Hero />
-      {/* <Skills /> */}
+      <Skills />
       {/* <Technologies /> */}
       {/* <Projects /> */}
       {/* <Education /> */}
