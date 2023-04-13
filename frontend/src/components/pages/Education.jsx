@@ -39,7 +39,7 @@ export default function Education() {
     }
 
   return (
-    <div className='education-wrapper'>
+    <div className='education-wrapper' id="education">
         <div className='title-container'>
             <p className='title'>Education</p>
             <p className='subtitle'>All my formations and courses, which have helped me become an experienced Web Developer.</p>

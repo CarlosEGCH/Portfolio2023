@@ -13,21 +13,21 @@ export default function Header() {
 
       <div className="links-container">
         <div>
-          <a className="hover-underline-animation">Skills</a>
+          <a href="#skills" className="hover-underline-animation">Skills</a>
         </div>
         <div>
-          <a className="hover-underline-animation">Technologies</a>
+          <a href="#technologies" className="hover-underline-animation">Technologies</a>
         </div>
         <div>
-          <a className="hover-underline-animation">Projects</a>
+          <a href="#projects" className="hover-underline-animation">Projects</a>
         </div>
         <div>
-          <a className="hover-underline-animation">Education</a>
+          <a href="#education" className="hover-underline-animation">Education</a>
         </div>
       </div>
 
       <div className="download-cv">
-        <a>Download CV</a>
+        <a href="../../assets/cvcarlosgomes.pdf" download>Download CV</a>
       </div>
     </div>
   )

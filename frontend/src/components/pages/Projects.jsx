@@ -10,7 +10,7 @@ import cat from "../../assets/github.png"
 
 export default function Projects() {
   return (
-    <div className='projects-wrapper'>
+    <div className='projects-wrapper' id="projects">
         <div className='main-title'>
             <p className='subtitle'>Check it out</p>
             <p className='title'>Featured Projects</p>

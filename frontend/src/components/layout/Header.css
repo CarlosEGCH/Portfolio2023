@@ -15,6 +15,19 @@
     color: white;
 }
 
+.header-wrapper 
+.links-container
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.header-wrapper 
+.links-container 
+a:hover{
+    color: #3500D3;
+}
+
 .header-wrapper
 .download-cv a{
     font-size: 22px;
@@ -23,6 +36,8 @@
     box-shadow: 0px 0px #240090, 0px 0px #190061;
     transition: box-shadow 0.25s ease-out;
     cursor: pointer;
+    color: white;
+    text-decoration: none;
 }
 
 /* Hover Animations */
@@ -58,4 +73,32 @@
 
 .header-wrapper .download-cv a:hover {
     box-shadow: 4px -4px #240090, 8px -8px #190061;
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .header-wrapper {
+        padding: 20px 20px;
+    }
+
+    .header-wrapper .links-container {
+        display: none;
+    }
+
+    .header-wrapper
+    .logo-container
+    img{
+        width: 60px;
+    }
+
+    .header-wrapper .download-cv a {
+        font-size: 18px;
+        background-color: #3500D3;
+        padding: 15px;
+        box-shadow: 0px 0px #240090, 0px 0px #190061;
+        transition: box-shadow 0.25s ease-out;
+        cursor: pointer;
+        color: white;
+        text-decoration: none;
+    }
 }

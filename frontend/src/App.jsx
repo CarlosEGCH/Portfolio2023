@@ -14,12 +14,12 @@ export default function App() {
     <div>
       <Header />
       <Hero />
-      <Skills />
-      <Technologies />
-      <Projects />
-      <Education />
-      <Contact />
-      <Footer />
+      {/* <Skills /> */}
+      {/* <Technologies /> */}
+      {/* <Projects /> */}
+      {/* <Education /> */}
+      {/* <Contact /> */}
+      {/* <Footer /> */}
     </div>
   )
 }

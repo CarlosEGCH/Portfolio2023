@@ -6,6 +6,7 @@ html, body{
   background-color: #0C0032;
   font-family: 'Inter', sans-serif;
   color: white;
+  scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar {

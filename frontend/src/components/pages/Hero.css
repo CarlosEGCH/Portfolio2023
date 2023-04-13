@@ -158,3 +158,33 @@ p{
         transform: rotate(360deg);
     }
 }
+
+/* Start of Media Queries */
+
+@media only screen and (max-width: 1300px) {
+    .hero-wrapper {
+        padding: 40px 60px 180px 60px;
+    }
+
+    .hero-wrapper 
+    .right
+    img {
+        width: 300px;
+    }
+
+    .hero-wrapper .right .orbit {
+        height: 300px;
+        width: 300px;
+    }
+
+    .hero-wrapper .right .orbit .satellite {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    .hero-wrapper {
+        padding: 40px 60px 180px 60px;
+    }
+}

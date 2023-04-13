@@ -7,7 +7,7 @@ import backendIcon from "../../assets/backend.png";
 
 export default function Technologies() {
   return (
-    <div className='technologies-wrapper'>
+    <div className='technologies-wrapper' id="technologies">
         <p className='main-title'>Technologies</p>
         <div className='cards-container'>
             <div className='card'>
