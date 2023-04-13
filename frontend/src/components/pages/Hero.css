@@ -185,6 +185,49 @@ p{
 
 @media only screen and (max-width: 1100px){
     .hero-wrapper {
-        padding: 40px 60px 180px 60px;
+        padding: 20px 20px 80px 20px;
+        flex-direction: column-reverse;
+    }
+
+    .hero-wrapper .right img {
+        width: 100px;
+    }
+
+    .hero-wrapper .right{
+        padding: 0px 0px 30px 0px;
+    }
+
+    .hero-wrapper .right .orbit {
+        height: 120px;
+        width: 120px;
+        top: -12px;
+        left: -12px;
+    }
+
+    .hero-wrapper .right .orbit .satellite {
+        height: 30px;
+        width: 30px;
+    }
+
+    .hero-wrapper .left .subtitle .hline {
+        max-width: 20px;
+    }
+
+    .hero-wrapper .left .subtitle {
+        gap: 10px;
+        font-size: 16px;
+    }
+
+    .hero-wrapper .left .title {
+        font-size: 30px;
+        font-weight: 700;
+        margin: 5px 0px 10px 0px;
+        height: 60px;
+    }
+
+    .hero-wrapper .left .description {
+        font-size: 16px;
+        width: 350px;
+        height: initial;
     }
 }
