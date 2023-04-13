@@ -14,7 +14,7 @@ export default function Skills() {
         if(!isInView){
             setBars(0);
         }
-        console.log("Bars:" + bars)
+        // console.log("Bars:" + bars)
     }, [isInView])
 
     const frontendVar = {

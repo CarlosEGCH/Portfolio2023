@@ -13,16 +13,16 @@ export default function Header() {
 
       <div className="links-container">
         <div>
-          <a class="hover-underline-animation">Skills</a>
+          <a className="hover-underline-animation">Skills</a>
         </div>
         <div>
-          <a class="hover-underline-animation">Technologies</a>
+          <a className="hover-underline-animation">Technologies</a>
         </div>
         <div>
-          <a class="hover-underline-animation">Projects</a>
+          <a className="hover-underline-animation">Projects</a>
         </div>
         <div>
-          <a class="hover-underline-animation">Education</a>
+          <a className="hover-underline-animation">Education</a>
         </div>
       </div>
 
